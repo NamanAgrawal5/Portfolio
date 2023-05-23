@@ -2,7 +2,7 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
-import Link from "next/link";
+
 
 type Props = {};
 
@@ -28,18 +28,18 @@ function Hero({}: Props) {
         <Cursor cursorColor="#F7AB0A" />
       </h1>
       <div className="pt-5">
-        <Link href="#about">
+        <a href="#about">
         <button className="herobutton">About</button>
-        </Link>
-        <Link href="#experience">
+        </a>
+        <a href="#experience">
         <button className="herobutton">Experience</button>
-        </Link>
-        <Link href="#skills">
+        </a>
+        <a href="#skills">
         <button className="herobutton">Skills</button>
-        </Link>
-        <Link href="#projects">
+        </a>
+        <a href="#projects">
         <button className="herobutton">Projects</button>
-        </Link>
+        </a>
       </div>
     </div>
     </div>
