@@ -11,6 +11,7 @@ function Skill({ directionLeft }: Props) {
       <motion.img
         initial={{
           x: directionLeft ? -200 : 200,
+          opacity: 0,
         }}
         transition={{
           duration: 1,
