@@ -39,7 +39,7 @@ function Header({}: Props) {
           bgColor="transparent"
         />
       </motion.div>
-      <Link href="#contact">
+      <a href="#contact">
 
       <motion.div
         initial={{
@@ -64,7 +64,7 @@ function Header({}: Props) {
           />
         <p className="uppercase hidden md:inline-flex text-sm text-gray-100">Get In Touch</p>
       </motion.div>
-      </Link>
+      </a>
     </header>
   );
 }
