@@ -27,7 +27,7 @@ function About({}: Props) {
       src='https://wallpapers-clan.com/wp-content/uploads/2023/01/anime-aesthetic-boy-pfp-1.jpg' className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'></motion.img>
       <div className='space-y-10 px-0 md:px-10'>
         <h4 className='text-4xl font-semibold text-gray-400'>Here is a <span className='text-yellow-700 tracking-widest'>little</span> background</h4>
-        <p className='text-inherit tracking-wide font-Mukta'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati rem maxime, animi recusandae labore cumque? Fuga vel sequi ullam repellendus necessitatibus ducimus architecto modi fugiat numquam! Vitae, eius debitis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea quis ipsum consequuntur tempore quam aperiam doloremque quas necessitatibus et, accusamus accusantium itaque blanditiis neque reiciendis cupiditate voluptas, beatae ipsa officia?</p>
+        <p className='text-inherit tracking-wide font-Mukta'>Hi Guys my name is Naman Agrawal.I am a CSE(AIML) undergrad from KIET Group of institutions.I am a web developer and a machine learning enthusiast with interest in natural learning process.Along with development i am also working on my problem solving and currently I have done more than 150+ questions on leetcode and 3 star on codechef. Currently I am looking of an internship in either machine learning or web development.I like playing Table tenis, and watching anime.</p>
       </div>
     </motion.div>
 

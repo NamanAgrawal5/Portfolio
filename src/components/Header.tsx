@@ -29,12 +29,17 @@ function Header({}: Props) {
           bgColor="transparent"
           />
         <SocialIcon
-          url="https://twitter.com/NamanKun01"
+          url="https://www.linkedin.com/in/naman-agrawal-b49b26224/"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://twitter.com/NamanKun01"
+          url="https://github.com/NamanAgrawal5"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.codechef.com/users/namankun00"
           fgColor="gray"
           bgColor="transparent"
         />
