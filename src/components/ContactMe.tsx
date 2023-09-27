@@ -9,22 +9,22 @@ type Inputs = {
   subject: string;
   message: string;
 };
-
 type Props = {};
 
 function ContactMe({}: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
 
-  const onSubmit: SubmitHandler<Inputs> = (formData) => window.location.href = `mailto:namanagarwal578@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
+  const onSubmit: SubmitHandler<Inputs> = (formData) =>
+    (window.location.href = `mailto:namanagarwal578@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`);
   return (
-    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
+    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
       </h3>
       <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center text-gray-400">
-          Here's how we can connect.{" "}
-          <span className="text-yellow-700">Lets Talk.</span>
+        <h4 className="text-4xl font-semibold text-center mt-9">
+          Here is how we can connect.{" "}
+          <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
         </h4>
 
         <div className="space-y-10">

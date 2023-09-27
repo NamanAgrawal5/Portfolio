@@ -3,9 +3,10 @@ import React from "react";
 import { motion } from "framer-motion";
 type Props = {
   directionLeft?: boolean;
+  image: string,
 };
 
-function Skill({ directionLeft }: Props) {
+function Skill({ directionLeft,image}: Props) {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
@@ -20,7 +21,9 @@ function Skill({ directionLeft }: Props) {
           opacity: 1,
           x: 0,
         }}
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207"
+        src={
+          image
+        }
         alt=""
         className="rounded-full border-gray-500 object-cover w-24 h-24 xl:w-32 md:w-28 md:h-28 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out "
       />

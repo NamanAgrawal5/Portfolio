@@ -24,20 +24,20 @@ function WorkExperience({}: Props) {
       title: "Member",
       company: "DSDL",
       companyLogo:
-        "https://media.licdn.com/dms/image/C560BAQEXAoszu0wlGw/company-logo_200_200/0/1638176187574?e=1694044800&v=beta&t=4tOcfMRCvZ1_XN6F32dZY-tv6M1ohxdxCNI-5Srb4vM",
+        "https://www.kiet.edu/uploads/department/student_club/858949259.jpg",
       skills: [
         "https://cdn-icons-png.flaticon.com/512/1532/1532556.png",
         "https://cdn-icons-png.flaticon.com/512/1532/1532556.png",
       ],
       work: "2021-Present",
-      summary: ["Joined in first year", "Participated in college events for 2 years for the club", "Learned Data Science and deep learning",""],
+      summary: ["Joined in first year", "Participated in college events for 2 years for the club", "Learned Data Science and deep learning"],
     },
     {
       id: 3,
       title: "Co-Founder",
       company: "DevUp",
       companyLogo:
-        "https://media.licdn.com/dms/image/D4D0BAQHjQ0sJlH81BQ/company-logo_200_200/0/1667210987799?e=1694044800&v=beta&t=sciZ1tn1qeoFib4laLoRKB6R5YOB4uISddWxi9riXHU",
+        "https://media.licdn.com/dms/image/D4D0BAQHjQ0sJlH81BQ/company-logo_200_200/0/1667210987799?e=2147483647&v=beta&t=G29X5AeCVpo28B5s37im5XhznqCKsvQ-uhYJ5fJaip4",
       skills: [
         "https://cdn-icons-png.flaticon.com/512/1532/1532556.png",
         "https://cdn-icons-png.flaticon.com/512/1532/1532556.png",
